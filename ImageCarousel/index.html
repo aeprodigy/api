@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h3>Yello' Pages</h3>
+    <div class="slideShow-container">
+      <div class="mySlides fade">
+        <div class="text"><h4>Image(SVG)Carousel</h4></div>
+        <img src="./img/zp logo.jpg" alt="" />
+        <div class="number-text">number</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="text"><h4>Image(SVG)Carousel2</h4></div>
+        <img src="./img/dreams.png" alt="" />
+        <div class="number-text">number</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="text"><h4>Image(SVG)Carousel</h4></div>
+        <img src="./img/dreams.png"  alt="" />
+        <div class="number-text">number</div>
+      </div>
+
+         <a class="prev" onclick="plusSlides(-1)">❮</a>
+         <a class="next" onclick="plusSlides(1)">❯</a>
+         
+    </div>
+    <!--The Links to the images-->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: blue;
+    padding: 0 100px;
+    color: white;
+}
+.theBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-icon{
+    display: grid;
+    place-items: center;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon span {
+    width: 30px;
+    height: 3px;
+    background: white;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    }
+.line-1{
+    width: 42px;
+    justify-self: end;
+}
+ .active span:nth-child(1){
+    transform-origin: center center;
+    transform: rotate(-45deg) translate(-12px, -7px);
+    width: 55px;
+}
+.active span:nth-child(2){
+     transform: translateX(10px);
+    opacity: 0;
+}
+.active span:nth-child(3){
+    transform-origin: center center;
+    transform: rotate(45deg) translate(-15px, -14px);
+    width: 45px;
+}
