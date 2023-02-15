@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 2px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    transition:1.0s;
+    border-bottom: 1px solid white;
+    margin: auto;
+    height: 32px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: white;
+}
+.logo-color{
+   background-color: green;
+   border: 1px solid green;
+   padding: 2px;
+}
+.logo-lining{
+    border: 1px solid green;
+    padding: 2px;
+} 
+.main-lining{
+     border: 3px solid green;
+    padding: 2px;
+}
+.head-menu li{
+   padding: 10px 20px;
+   font-weight: 600;
+    transition: all .42s ease;
+}
+.user i{
+    font-size: 18px;
+     transition:.40s;
+     cursor: pointer;
+}
+.fa-user{
+    padding-right: 34px;
+}
+.user i:hover{
+    font-size: 20px;
+}
+.user img{
+   color: white;
+   cursor: pointer;
+   padding: 5px;
+}
+.userbg{
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+.menubg{
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+   
+}
+.logo{
+    padding-left: 50px;
+}
+ul li{
+    padding: 5px;
+    text-transform: capitalize;
+    font-weight: 500;
+    align-items: center;
+    cursor: pointer;
+}
+.menu-bar{
+    align-items: center;
+    padding-right: 70px;
+}
+.home{
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.014), rgba(0, 0, 0, 0.925)), url(./images/uwp2063041.jpeg);
+    background-size: cover;
+    height: 100vh;
+}
+.home-text{
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    font-size: 50px;
+}
+a{
+     color: white;
+   font-style: none;
+   text-decoration: none;
+}
+.btn{
+    position: absolute;
+    right: 20%;
+    top: 78%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+     padding-bottom: 2px;
+     background-color: green;
+}
+.btn a{
+    padding-bottom: 7px;
+    padding-top: 17px;
+    padding-right: 17px;
+    padding-left: 17px;
+   color: white;
+   font-style: none;
+   text-decoration: none;
+   font-size: 25px;
+}
+.btn:hover{
+    border: 1px solid white;
+    transition: .4s all ease;
+    color: none;
+}
+.explore{
+    background-image: url(./images/uwp2063033.jpeg);
+    height: 100vh;
+    transition: .42s;
+}
+.sticky .head-content{
+    background-color: black;
+    box-shadow: 0px 0px 20px rgb(0 0 0/ 10%);
+    opacity: 0.9;
+}
+.places{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 3rem;
+    color: white;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.row{
+    position: relative;
+    transition: all .42s;
+    cursor: pointer;
+    margin: auto;
+    padding: 10px 10%;
+     background-color: black;
+    box-shadow: 0px 0px 20px rgb(0 0 0/ 10%);
+    opacity: 0.9;
+    margin:0;
+}
+.row img{
+    width: 100%;
+    padding: 0%;
+    transition: all .42s;
+    height:auto;
+    
+}
+
+.heart-icon{
+    position: absolute;
+    right: 0;
+
+    font-size: 20px;
+}
+.heart-icon:hover{
+       color: red;
+}
+.ratting{
+    color: orange;
+    font-size: 20px;
+}
+.hot-spots{
+    text-align: center;
+    color: white;
+    
+}
+.hot-spots h2{
+    padding-top:30px ;
+}
