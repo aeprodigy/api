@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*THE GLOBAL TAGS STYLES STARTS HERE*/
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(35,35,85);
+
+}
+h3{
+    color: rgb(35,35,85);
+    font-size: 18px;
+    font-weight: 700;
+}
+span{
+    font-size: .9rem;
+    color: #757373;
+}
+h6{
+    font-size: 1.1rem;
+    color: rgb(24,24,49);
+}
+/*THE GLOBAL TAGS STYLES ENDS HERE*/
+
+/*NAVIGATION STYLES STARTS HERE*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw 8vw;
+    align-items: center;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.15);
+}
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(21,21,100);
+    font-weight: 500;
+    font-size: 20px;
+}
+nav .navigation ul li a:hover{
+    color: #fdc933;
+}
+.img{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.img img{
+    height: 53px;
+}
+/*NAVIGATION STYLES ENDS HERE*/
